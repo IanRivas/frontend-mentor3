@@ -83,6 +83,7 @@ main .title, main .review {
 }
 
 
+
 /* Section 3 */
 .cards{
    width: 100%;
@@ -94,7 +95,7 @@ main .title, main .review {
    margin: 0 15px;
    padding: 35px;
    width: 30%;
-   height: 233px;
+   min-height: 233px;
    border-radius: 10px;
    background-color: var(--color1);
    color:white;
