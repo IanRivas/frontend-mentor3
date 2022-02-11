@@ -1,0 +1,44 @@
+
+
+main .title, main .review ,main{
+    width: 100%;
+    
+}
+
+main .title .h1{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+.title .h1 h1,.title .h1 p{
+    text-align: center;
+}
+
+
+.review .middle,.review .bottom{
+    margin-left: auto;
+}
+
+.review div{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    margin: 0 auto 14px auto;
+}
+.review div img, .review div span{
+    margin-top: 17px;
+}
+.review div span{
+    margin-bottom: 17px;
+}
+
+.cards{
+    flex-direction: column;
+}
+.cards .card{
+    width: 90%;
+    margin: 0 auto 16px auto;
+}
+.cards :first-child{
+    margin-left: auto;
+ }
